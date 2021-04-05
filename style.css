@@ -10,13 +10,23 @@ body {
 }
 
 /* Add styles here! */
-.header {}
-.main {}
+header {
+  border-bottom: solid 8px hsl(0, 0%, 40%);
+}
+main {
+  background-color: hsl(0, 0%, 40%);
+}
 
 .max-width-wrapper {}
 
 .intro-chunk {}
-.card {}
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-bottom: solid 8px hsl(0, 0%, 40%);
+}
 
 .title {}
-.indented-heading {}
+.indented-heading {
+  background-color: hsl(45, 100%, 50%);
+  border-bottom: solid 8px hsl(45, 100%, 45%);
+}
