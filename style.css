@@ -7,17 +7,23 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 /* Add styles here! */
 header {
   border-bottom: solid 8px hsl(0, 0%, 40%);
+  height: 50%;
 }
 main {
   background-color: hsl(0, 0%, 40%);
+  height: 50%;
 }
 
-.max-width-wrapper {}
+.max-width-wrapper {
+  width: 540px;
+  margin: auto;
+}
 
 .intro-chunk {}
 .card {
